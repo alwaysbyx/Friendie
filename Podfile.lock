@@ -1,0 +1,16 @@
+PODS:
+  - Constrictor (6.0.1)
+
+DEPENDENCIES:
+  - Constrictor
+
+SPEC REPOS:
+  trunk:
+    - Constrictor
+
+SPEC CHECKSUMS:
+  Constrictor: bfc15bcf8cba24609ec933658475dfadc16edef6
+
+PODFILE CHECKSUM: d6ec2fbe19c0fa70e946433d6bae20f727c47758
+
+COCOAPODS: 1.9.2

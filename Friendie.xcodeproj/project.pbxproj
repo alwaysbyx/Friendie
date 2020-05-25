@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D14453674490D5B31B4EE0E /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204A438B02D3C831FDC98500 /* Pods_Friendie.framework */; };
+		1E4CA4DF247B97A20074C7CC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4DE247B97A20074C7CC /* HomePageViewController.swift */; };
+		1E4CA4E1247B980E0074C7CC /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E0247B980E0074C7CC /* NavigationController.swift */; };
+		1E4CA4E3247B9B4C0074C7CC /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */; };
+		1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */; };
+		F32432D024799651001D07E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32432CF24799651001D07E6 /* GameViewController.swift */; };
+		F3DFD85C24798EC800E6A7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFD85B24798EC800E6A7E3 /* AppDelegate.swift */; };
+		F3DFD85E24798EC800E6A7E3 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3DFD85D24798EC800E6A7E3 /* Scene.sks */; };
+		F3DFD86024798EC800E6A7E3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFD85F24798EC800E6A7E3 /* Scene.swift */; };
+		F3DFD86524798EC800E6A7E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DFD86324798EC800E6A7E3 /* Main.storyboard */; };
+		F3DFD86724798EC900E6A7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DFD86624798EC900E6A7E3 /* Assets.xcassets */; };
+		F3DFD86A24798EC900E6A7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DFD86824798EC900E6A7E3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E4CA4DE247B97A20074C7CC /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		1E4CA4E0247B980E0074C7CC /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
+		1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		204A438B02D3C831FDC98500 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A039742A1DCD6639B09000F /* Pods-Friendie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.release.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.release.xcconfig"; sourceTree = "<group>"; };
+		88B5FDE0CDD14DAB34D70AD9 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
+		F32432CF24799651001D07E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F3DFD85824798EC800E6A7E3 /* Friendie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DFD85B24798EC800E6A7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DFD85D24798EC800E6A7E3 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		F3DFD85F24798EC800E6A7E3 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F3DFD86424798EC800E6A7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DFD86624798EC900E6A7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DFD86924798EC900E6A7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DFD86B24798EC900E6A7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DFD85524798EC800E6A7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14453674490D5B31B4EE0E /* Pods_Friendie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD09BDCA161405279B3CE7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88B5FDE0CDD14DAB34D70AD9 /* Pods-Friendie.debug.xcconfig */,
+				3A039742A1DCD6639B09000F /* Pods-Friendie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F32432C6247994FE001D07E6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFD85F24798EC800E6A7E3 /* Scene.swift */,
+				F3DFD85D24798EC800E6A7E3 /* Scene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F32432C724799516001D07E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E4CA4E0247B980E0074C7CC /* NavigationController.swift */,
+				F32432CC24799556001D07E6 /* Highscore */,
+				F32432CB2479954E001D07E6 /* Result */,
+				F32432CA24799533001D07E6 /* Helper */,
+				F32432C92479952A001D07E6 /* HomePage */,
+				F32432C82479951F001D07E6 /* Game */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F32432C82479951F001D07E6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F32432CF24799651001D07E6 /* GameViewController.swift */,
+				F32432C6247994FE001D07E6 /* Scenes */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F32432C92479952A001D07E6 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1E4CA4DE247B97A20074C7CC /* HomePageViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		F32432CA24799533001D07E6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F32432CB2479954E001D07E6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		F32432CC24799556001D07E6 /* Highscore */ = {
+			isa = PBXGroup;
+			children = (
+				1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */,
+			);
+			path = Highscore;
+			sourceTree = "<group>";
+		};
+		F32432CD24799594001D07E6 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFD86324798EC800E6A7E3 /* Main.storyboard */,
+				F3DFD86624798EC900E6A7E3 /* Assets.xcassets */,
+				F3DFD86824798EC900E6A7E3 /* LaunchScreen.storyboard */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F32432CE247995AC001D07E6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3DFD84F24798EC800E6A7E3 = {
+			isa = PBXGroup;
+			children = (
+				F3DFD85A24798EC800E6A7E3 /* Friendie */,
+				F3DFD85924798EC800E6A7E3 /* Products */,
+				EDD09BDCA161405279B3CE7C /* Pods */,
+				FE8362FFE2D65276DEA29225 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DFD85924798EC800E6A7E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFD85824798EC800E6A7E3 /* Friendie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DFD85A24798EC800E6A7E3 /* Friendie */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFD85B24798EC800E6A7E3 /* AppDelegate.swift */,
+				F3DFD86B24798EC900E6A7E3 /* Info.plist */,
+				F32432CE247995AC001D07E6 /* Others */,
+				F32432C724799516001D07E6 /* Views */,
+				F32432CD24799594001D07E6 /* res */,
+			);
+			path = Friendie;
+			sourceTree = "<group>";
+		};
+		FE8362FFE2D65276DEA29225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204A438B02D3C831FDC98500 /* Pods_Friendie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DFD85724798EC800E6A7E3 /* Friendie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DFD86E24798EC900E6A7E3 /* Build configuration list for PBXNativeTarget "Friendie" */;
+			buildPhases = (
+				FBBD773326B27789F46788B6 /* [CP] Check Pods Manifest.lock */,
+				F3DFD85424798EC800E6A7E3 /* Sources */,
+				F3DFD85524798EC800E6A7E3 /* Frameworks */,
+				F3DFD85624798EC800E6A7E3 /* Resources */,
+				F5812D528B51A1621A077E5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Friendie;
+			productName = Friendie;
+			productReference = F3DFD85824798EC800E6A7E3 /* Friendie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DFD85024798EC800E6A7E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Com;
+				TargetAttributes = {
+					F3DFD85724798EC800E6A7E3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F3DFD85324798EC800E6A7E3 /* Build configuration list for PBXProject "Friendie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DFD84F24798EC800E6A7E3;
+			productRefGroup = F3DFD85924798EC800E6A7E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DFD85724798EC800E6A7E3 /* Friendie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DFD85624798EC800E6A7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DFD85E24798EC800E6A7E3 /* Scene.sks in Resources */,
+				F3DFD86A24798EC900E6A7E3 /* LaunchScreen.storyboard in Resources */,
+				F3DFD86724798EC900E6A7E3 /* Assets.xcassets in Resources */,
+				F3DFD86524798EC800E6A7E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5812D528B51A1621A077E5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBD773326B27789F46788B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Friendie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DFD85424798EC800E6A7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4CA4DF247B97A20074C7CC /* HomePageViewController.swift in Sources */,
+				F32432D024799651001D07E6 /* GameViewController.swift in Sources */,
+				F3DFD86024798EC800E6A7E3 /* Scene.swift in Sources */,
+				1E4CA4E3247B9B4C0074C7CC /* HighscoreViewController.swift in Sources */,
+				1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */,
+				1E4CA4E1247B980E0074C7CC /* NavigationController.swift in Sources */,
+				F3DFD85C24798EC800E6A7E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3DFD86324798EC800E6A7E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DFD86424798EC800E6A7E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3DFD86824798EC900E6A7E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DFD86924798EC900E6A7E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DFD86C24798EC900E6A7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3DFD86D24798EC900E6A7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DFD86F24798EC900E6A7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B5FDE0CDD14DAB34D70AD9 /* Pods-Friendie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZMFZ6Z48X;
+				INFOPLIST_FILE = Friendie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bb.exp3Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DFD87024798EC900E6A7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A039742A1DCD6639B09000F /* Pods-Friendie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZMFZ6Z48X;
+				INFOPLIST_FILE = Friendie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bb.exp3Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DFD85324798EC800E6A7E3 /* Build configuration list for PBXProject "Friendie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DFD86C24798EC900E6A7E3 /* Debug */,
+				F3DFD86D24798EC900E6A7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DFD86E24798EC900E6A7E3 /* Build configuration list for PBXNativeTarget "Friendie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DFD86F24798EC900E6A7E3 /* Debug */,
+				F3DFD87024798EC900E6A7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3DFD85024798EC800E6A7E3 /* Project object */;
+}
