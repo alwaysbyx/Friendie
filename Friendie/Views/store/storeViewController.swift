@@ -60,9 +60,9 @@ class storeViewController: UIViewController, ARSCNViewDelegate {
 extension storeViewController {
     func showFriends() {
         sceneView.removeAllNodes()
-        sceneView.addPhotoRing_Box(vector3: SCNVector3Make(0, 0, -6), left: 1, L: 40)
+        //sceneView.addPhotoRing_Box(vector3: SCNVector3Make(0, 0, -6), left: 1, L: 40)
         sceneView.addPhotoRing_H(vector3: SCNVector3Make(0, -1.2, -6), left: -1, L: 10)
-        sceneView.addPhotoRing_Box(vector3: SCNVector3Make(0, -2.4, -6), left: 1, L: 40)
+        //sceneView.addPhotoRing_Box(vector3: SCNVector3Make(0, -2.4, -6), left: 1, L: 40)
         sceneView.addPhotoRing_V(vector3: SCNVector3Make(0, 1.5, -6), left: 1, L: 20)
         sceneView.addPhotoRing_V(vector3: SCNVector3Make(0, -4, -6), left: -1, L: 20)
         sceneView.addPhotoRing_Back(vector3: SCNVector3Make(0, -2, -8), left: -1, L: 2)
@@ -93,13 +93,14 @@ extension storeViewController {
         }
         // 点击到的节点
         let node = firstNode.node.copy() as? SCNNode
-
+        var talkNode = SCNNode()
         if (node?.geometry?.isKind(of: SCNSphere.self))! {
             self.selectNode?.removeFromParentNode()
             return
         }
 
         if firstNode.node == self.selectNode {
+            print("out")
             let newPosition  = SCNVector3Make(firstNode.node.worldPosition.x*2, firstNode.node.worldPosition.y*2, firstNode.node.worldPosition.z*2)
             let comeOut = SCNAction.move(to: newPosition, duration: 1.2)
             firstNode.node.runAction(comeOut)
@@ -107,6 +108,7 @@ extension storeViewController {
                 firstNode.node.removeFromParentNode()
             })
         } else {
+            print("on")
             self.selectNode?.removeFromParentNode()
             node?.position = firstNode.node.worldPosition
             let newPosition  = SCNVector3Make(firstNode.node.worldPosition.x/2, firstNode.node.worldPosition.y/2, firstNode.node.worldPosition.z/2)
@@ -115,7 +117,22 @@ extension storeViewController {
             let comeOn = SCNAction.move(to: newPosition, duration: 1.2)
             node?.runAction(comeOn)
             selectNode = node
+            //add talk
+            let photo = SCNPlane(width: 0.4, height: 0.2)
+            photo.cornerRadius = 0.05
+            let image = "talk1"
+            photo.firstMaterial?.diffuse.contents = image
+            talkNode = SCNNode(geometry: photo)
+            talkNode.position = firstNode.node.worldPosition
+            sceneView.scene.rootNode.addChildNode(talkNode)
+            let newPosition2  = SCNVector3Make(firstNode.node.worldPosition.x/2, firstNode.node.worldPosition.y/2+1, firstNode.node.worldPosition.z/2+1)
+            let comeTalkOn = SCNAction.move(to: newPosition2, duration: 2)
+            let wait = SCNAction.wait(duration: 4)
+            let destroy = SCNAction.removeFromParentNode()
+            let sequenceAction = SCNAction.sequence([comeTalkOn,wait,destroy])
+            talkNode.runAction(sequenceAction)
         }
+        //talkNode.removeFromParentNode()
     }
 }
 // MARK: 按钮点击事件
