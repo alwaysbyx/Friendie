@@ -13,6 +13,19 @@
 		1E4CA4E3247B9B4C0074C7CC /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */; };
 		1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */; };
 		F32432D024799651001D07E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32432CF24799651001D07E6 /* GameViewController.swift */; };
+		F37830632481591300C80171 /* LevelOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = F37830622481591300C80171 /* LevelOne.sks */; };
+		F378308724815C2300C80171 /* GameLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378308624815C2300C80171 /* GameLighting.swift */; };
+		F378308924815C4000C80171 /* GameTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378308824815C4000C80171 /* GameTransformation.swift */; };
+		F378308B24815D1700C80171 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378308A24815D1700C80171 /* Sound.swift */; };
+		F378308F2481734000C80171 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378308E2481734000C80171 /* Alertable.swift */; };
+		F37830912481736C00C80171 /* StringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37830902481736C00C80171 /* StringKey.swift */; };
+		F3783093248173F300C80171 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783092248173F300C80171 /* ResultViewController.swift */; };
+		F37830952481763300C80171 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37830942481763300C80171 /* Music.swift */; };
+		F37830972481792200C80171 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37830962481792200C80171 /* Duration.swift */; };
+		F378309924817A2600C80171 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378309824817A2600C80171 /* Dependency.swift */; };
+		F378309B24817A5800C80171 /* Porvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378309A24817A5800C80171 /* Porvider.swift */; };
+		F378309D24817AA500C80171 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378309C24817AA500C80171 /* AVPlayer.swift */; };
+		F39142A824815754000C74EB /* NodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39142A724815754000C74EB /* NodeType.swift */; };
 		F3DFD85C24798EC800E6A7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFD85B24798EC800E6A7E3 /* AppDelegate.swift */; };
 		F3DFD85E24798EC800E6A7E3 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3DFD85D24798EC800E6A7E3 /* Scene.sks */; };
 		F3DFD86024798EC800E6A7E3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFD85F24798EC800E6A7E3 /* Scene.swift */; };
@@ -30,6 +43,19 @@
 		3A039742A1DCD6639B09000F /* Pods-Friendie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.release.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.release.xcconfig"; sourceTree = "<group>"; };
 		88B5FDE0CDD14DAB34D70AD9 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
 		F32432CF24799651001D07E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F37830622481591300C80171 /* LevelOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelOne.sks; sourceTree = "<group>"; };
+		F378308624815C2300C80171 /* GameLighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLighting.swift; sourceTree = "<group>"; };
+		F378308824815C4000C80171 /* GameTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTransformation.swift; sourceTree = "<group>"; };
+		F378308A24815D1700C80171 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		F378308E2481734000C80171 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		F37830902481736C00C80171 /* StringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKey.swift; sourceTree = "<group>"; };
+		F3783092248173F300C80171 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = Friendie/Views/Result/ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		F37830942481763300C80171 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		F37830962481792200C80171 /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		F378309824817A2600C80171 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		F378309A24817A5800C80171 /* Porvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porvider.swift; sourceTree = "<group>"; };
+		F378309C24817AA500C80171 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		F39142A724815754000C74EB /* NodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeType.swift; sourceTree = "<group>"; };
 		F3DFD85824798EC800E6A7E3 /* Friendie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DFD85B24798EC800E6A7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DFD85D24798EC800E6A7E3 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -65,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				F3DFD85F24798EC800E6A7E3 /* Scene.swift */,
+				F37830622481591300C80171 /* LevelOne.sks */,
 				F3DFD85D24798EC800E6A7E3 /* Scene.sks */,
 			);
 			path = Scenes;
@@ -86,8 +113,10 @@
 		F32432C82479951F001D07E6 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				F32432CF24799651001D07E6 /* GameViewController.swift */,
+				F378308624815C2300C80171 /* GameLighting.swift */,
+				F378308824815C4000C80171 /* GameTransformation.swift */,
 				F32432C6247994FE001D07E6 /* Scenes */,
+				F32432CF24799651001D07E6 /* GameViewController.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -111,6 +140,7 @@
 		F32432CB2479954E001D07E6 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				F3783092248173F300C80171 /* ResultViewController.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -136,6 +166,15 @@
 		F32432CE247995AC001D07E6 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				F39142A724815754000C74EB /* NodeType.swift */,
+				F378308A24815D1700C80171 /* Sound.swift */,
+				F378308E2481734000C80171 /* Alertable.swift */,
+				F37830902481736C00C80171 /* StringKey.swift */,
+				F37830942481763300C80171 /* Music.swift */,
+				F37830962481792200C80171 /* Duration.swift */,
+				F378309824817A2600C80171 /* Dependency.swift */,
+				F378309A24817A5800C80171 /* Porvider.swift */,
+				F378309C24817AA500C80171 /* AVPlayer.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -238,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37830632481591300C80171 /* LevelOne.sks in Resources */,
 				F3DFD85E24798EC800E6A7E3 /* Scene.sks in Resources */,
 				F3DFD86A24798EC900E6A7E3 /* LaunchScreen.storyboard in Resources */,
 				F3DFD86724798EC900E6A7E3 /* Assets.xcassets in Resources */,
@@ -295,9 +335,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4CA4DF247B97A20074C7CC /* HomePageViewController.swift in Sources */,
+				F378308B24815D1700C80171 /* Sound.swift in Sources */,
+				F378308724815C2300C80171 /* GameLighting.swift in Sources */,
+				F39142A824815754000C74EB /* NodeType.swift in Sources */,
+				F3783093248173F300C80171 /* ResultViewController.swift in Sources */,
+				F378308F2481734000C80171 /* Alertable.swift in Sources */,
+				F37830952481763300C80171 /* Music.swift in Sources */,
+				F37830912481736C00C80171 /* StringKey.swift in Sources */,
+				F378309D24817AA500C80171 /* AVPlayer.swift in Sources */,
 				F32432D024799651001D07E6 /* GameViewController.swift in Sources */,
 				F3DFD86024798EC800E6A7E3 /* Scene.swift in Sources */,
 				1E4CA4E3247B9B4C0074C7CC /* HighscoreViewController.swift in Sources */,
+				F378309B24817A5800C80171 /* Porvider.swift in Sources */,
+				F378309924817A2600C80171 /* Dependency.swift in Sources */,
+				F378308924815C4000C80171 /* GameTransformation.swift in Sources */,
+				F37830972481792200C80171 /* Duration.swift in Sources */,
 				1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */,
 				1E4CA4E1247B980E0074C7CC /* NavigationController.swift in Sources */,
 				F3DFD85C24798EC800E6A7E3 /* AppDelegate.swift in Sources */,
@@ -446,14 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7ZMFZ6Z48X;
+				DEVELOPMENT_TEAM = GUDLSJN3C8;
 				INFOPLIST_FILE = Friendie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bb.exp3Test;
+				PRODUCT_BUNDLE_IDENTIFIER = zju.friendie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,14 +518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7ZMFZ6Z48X;
+				DEVELOPMENT_TEAM = GUDLSJN3C8;
 				INFOPLIST_FILE = Friendie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bb.exp3Test;
+				PRODUCT_BUNDLE_IDENTIFIER = zju.friendie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

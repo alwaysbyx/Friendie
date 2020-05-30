@@ -12,11 +12,33 @@ class HighscoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        writeScore()
         // Do any additional setup after loading the view.
     }
+    /*
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        writeScore()
+    }
+ */
     
-
+    @IBOutlet weak var textLb: UILabel!
+    
+    @IBAction func backtohome(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    func writeScore() {
+        let score = UserDefaults.standard.integer(forKey: "score")
+        if score == 0 {
+            textLb.text = "Sorry, it seems that you haven't played yet!"
+        }else {
+            textLb.text = "Haha~ Your best score is " + String(score) + "!"
+        }
+        
+    }
+    
     /*
     // MARK: - Navigation
 
