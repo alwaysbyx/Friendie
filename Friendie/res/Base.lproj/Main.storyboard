@@ -168,7 +168,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="logo2"/>
                                 <connections>
-                                    <segue destination="333-eW-LDC" kind="push" id="d3X-9k-K10"/>
+                                    <segue destination="333-eW-LDC" kind="push" id="aDt-2d-SF2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,21 +181,24 @@
             </objects>
             <point key="canvasLocation" x="292.75362318840581" y="43.526785714285715"/>
         </scene>
-        <!--View Controller-->
+        <!--Store View Controller-->
         <scene sceneID="YzB-a0-SW6">
             <objects>
-                <viewController id="333-eW-LDC" sceneMemberID="viewController">
+                <viewController id="333-eW-LDC" customClass="storeViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4h-2W-JLy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MGZ-U6-haI" customClass="storeView" customModule="Friendie" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </sceneKitView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ad-db-Vit">
-                                <rect key="frame" x="173" y="804" width="69" height="92"/>
+                                <rect key="frame" x="173" y="770" width="69" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ic-close"/>
                                 <connections>
-                                    <action selector="backhome:" destination="lSV-Qt-Vu4" eventType="touchUpInside" id="bNW-ff-p7E"/>
-                                    <action selector="onBackTouch:" destination="BV1-FR-VrT" eventType="touchUpInside" id="7Ck-BI-6sT"/>
+                                    <action selector="back:" destination="333-eW-LDC" eventType="touchUpInside" id="5Lc-DS-7nH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -203,11 +206,13 @@
                         <viewLayoutGuide key="safeArea" id="ySO-hr-Osr"/>
                     </view>
                     <navigationItem key="navigationItem" id="D7j-ya-hXO"/>
+                    <connections>
+                        <outlet property="sceneView" destination="MGZ-U6-haI" id="BQG-75-2wb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqt-55-EPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="lSV-Qt-Vu4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-425" y="775"/>
+            <point key="canvasLocation" x="-426.08695652173918" y="774.77678571428567"/>
         </scene>
         <!--Highscore View Controller-->
         <scene sceneID="7Hc-jb-qcG">
