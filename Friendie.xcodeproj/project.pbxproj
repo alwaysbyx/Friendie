@@ -12,6 +12,7 @@
 		1E4CA4E1247B980E0074C7CC /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E0247B980E0074C7CC /* NavigationController.swift */; };
 		1E4CA4E3247B9B4C0074C7CC /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */; };
 		1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */; };
+		1E97BE5C248239790019DD67 /* storeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97BE5B248239790019DD67 /* storeViewController.swift */; };
 		F32432D024799651001D07E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32432CF24799651001D07E6 /* GameViewController.swift */; };
 		F37830632481591300C80171 /* LevelOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = F37830622481591300C80171 /* LevelOne.sks */; };
 		F378308724815C2300C80171 /* GameLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378308624815C2300C80171 /* GameLighting.swift */; };
@@ -39,6 +40,7 @@
 		1E4CA4E0247B980E0074C7CC /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		1E4CA4E2247B9B4C0074C7CC /* HighscoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
 		1E4CA4E4247B9BCA0074C7CC /* HelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		1E97BE5B248239790019DD67 /* storeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeViewController.swift; sourceTree = "<group>"; };
 		204A438B02D3C831FDC98500 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A039742A1DCD6639B09000F /* Pods-Friendie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.release.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.release.xcconfig"; sourceTree = "<group>"; };
 		88B5FDE0CDD14DAB34D70AD9 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E97BE5A248239640019DD67 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				1E97BE5B248239790019DD67 /* storeViewController.swift */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
 		EDD09BDCA161405279B3CE7C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		F32432C724799516001D07E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1E97BE5A248239640019DD67 /* store */,
 				1E4CA4E0247B980E0074C7CC /* NavigationController.swift */,
 				F32432CC24799556001D07E6 /* Highscore */,
 				F32432CB2479954E001D07E6 /* Result */,
@@ -350,6 +361,7 @@
 				F378309924817A2600C80171 /* Dependency.swift in Sources */,
 				F378308924815C4000C80171 /* GameTransformation.swift in Sources */,
 				F37830972481792200C80171 /* Duration.swift in Sources */,
+				1E97BE5C248239790019DD67 /* storeViewController.swift in Sources */,
 				1E4CA4E5247B9BCA0074C7CC /* HelperViewController.swift in Sources */,
 				1E4CA4E1247B980E0074C7CC /* NavigationController.swift in Sources */,
 				F3DFD85C24798EC800E6A7E3 /* AppDelegate.swift in Sources */,
